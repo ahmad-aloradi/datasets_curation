@@ -1,0 +1,29 @@
+common:
+  # dataset
+  dataset_name: libriSpeech
+  dataset_dir: /home.local/aloradi/libriSpeech
+  train_dir: /home.local/aloradi/libriSpeech/train-clean-360
+  test_dir: /home.local/aloradi/libriSpeech/test-clean
+  dev_dir: /home.local/aloradi/libriSpeech/dev-clean
+
+  # audio
+  audio_file_type: flac
+
+  # annotation
+  annotation_type: text
+
+  # language
+  country: us
+  dialect: american
+  language: en
+
+  # speaker
+  speaker_filepath: SPEAKERS.TXT
+  native_speaker: true
+  age: adult
+
+  # extra
+  emotion: neutral
+  comment: None
+  vad_start: -1.0
+  vad_end: -1.0
