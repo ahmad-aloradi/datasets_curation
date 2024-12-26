@@ -1,11 +1,7 @@
 common:
   # dataset
   dataset_name: libriSpeech
-  dataset_dir: /home.local/aloradi/libriSpeech
-  train_dir: /home.local/aloradi/libriSpeech/train-clean-360
-  test_dir: /home.local/aloradi/libriSpeech/test-clean
-  dev_dir: /home.local/aloradi/libriSpeech/dev-clean
-
+  
   # audio
   audio_file_type: flac
 
@@ -18,8 +14,7 @@ common:
   language: en
 
   # speaker
-  speaker_filepath: SPEAKERS.TXT
-  native_speaker: true
+  native: true
   age: adult
 
   # extra
@@ -27,3 +22,11 @@ common:
   comment: None
   vad_start: -1.0
   vad_end: -1.0
+
+
+speaker_filepath: /home.local/aloradi/libriSpeech/train-clean-360/LibriSpeech/SPEAKERS.TXT
+dataset_dir: /home.local/aloradi/libriSpeechs
+annotation_format: .trans.txt
+train_dir: /home.local/aloradi/libriSpeech/train-clean-360
+test_dir: /home.local/aloradi/libriSpeech/test-clean
+dev_dir: /home.local/aloradi/libriSpeech/dev-clean
